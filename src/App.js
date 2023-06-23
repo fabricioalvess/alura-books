@@ -1,28 +1,17 @@
 import './App.css';
-import Logo from './componentes/Logo';
-import perfilSvg from './imagens/perfil.svg'
-import sacolaSvg from './imagens/sacola.svg'
-const icones = [perfilSvg, sacolaSvg]
-const textoOpcao = ['CATEGORIA','FAVORITOS','MINHA ESTANTE']
+import OpcoesHeader from './componentes/OpcoesHeader';
+import IconesHeader from './componentes/IconesHeader';
+import Logo from './componentes/Logo'
+
 function App() {
   return (
     <div className='App'>
       <header className='App-header'>
         <Logo></Logo>
-        <ul className='opcoes'>
-          {textoOpcao.map((texto)=>(
-            <li className='opcao'><p>{texto}</p></li>))}
-        </ul>
-        <ul className='icones'>
-            {
-              icones.map((icone)=>(
-                <li className='icone'><img src={icone}></img></li>
-              ))
-            }
-        </ul>
+        <OpcoesHeader></OpcoesHeader>
+        <IconesHeader/>
       </header>
     </div>
-
   );
 }
 export default App
