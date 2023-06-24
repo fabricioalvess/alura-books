@@ -9,7 +9,7 @@ const HeaderContainer = styled.header`
     justify-content: center;
 `
 
-function Header(){
+export default function Header(){
     return(
         <HeaderContainer>
             <Logo/>
@@ -18,5 +18,3 @@ function Header(){
       </HeaderContainer>
     )
 }
-
-export default Header

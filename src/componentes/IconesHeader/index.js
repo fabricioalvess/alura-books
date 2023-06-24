@@ -14,7 +14,7 @@ const Icones = styled.ul`
   align-items: center;
 `
 
-function IconesHeader(){
+export default function IconesHeader(){
     return(
         <Icones>
         {
@@ -25,5 +25,3 @@ function IconesHeader(){
     </Icones>
     )
 }
-
-export default IconesHeader

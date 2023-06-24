@@ -7,12 +7,10 @@ const AppStyle = styled.div`
   background-image:linear-gradient(90deg, #002f52 35%, #326589 165%);
   }
 `
-function App() {
+export default function App() {
   return (
     <AppStyle>
       <Header/>
     </AppStyle>
   );
 }
-
-export default App

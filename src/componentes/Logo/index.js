@@ -6,6 +6,11 @@ const Imagem = styled.img`
 `
 const LogoContainer = styled.div`
 display: flex;
+font-size:30px;
+`
+
+const PStyled = styled.p`
+display:flex;
 `
 export default function Logo(){
     return(
@@ -14,7 +19,7 @@ export default function Logo(){
           src={logo} 
           alt='logo'
          />
-          <p><strong>Alura</strong> Books</p>
+          <PStyled> <strong> Alura </strong> Books </PStyled>
         </LogoContainer>
     )
 }
