@@ -13,7 +13,7 @@ const PesquisaContainer = styled.section`
 `
 const Titulo = styled.h2`
     color:#fff;
-    font-size: 36;
+    font-size: 36px;
     text-align: center;
     width: 100%;
 `
