@@ -6,6 +6,6 @@ export const Titulo = styled.h2`
     background-color:#FFF;
     color: ${props => props.cor || '#000'};
     font-size:${props => props.tamanhoTexto || '18px'};
-    text-align:${props => props.alinhamentoTexto || 'center'};
+    text-align:${props => props.alinhamentoTexto ||'center'};
     margin:0;
 `
